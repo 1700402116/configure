@@ -1,7 +1,23 @@
 # configure
 
-快速配置Ubuntu server
+快速配置Ubuntu 18.04
 
-quick configuration for Ubuntu server
+**使用方法:**
 
-使用方法: ```sudo bash config.sh```
+1.进入当前用户目录 ```cd```
+
+2. ```git clone "http://github.com/1700402116/configure.git"```
+
+3.运行脚本```sudo bash config.sh```
+
+---------------------------------------------------
+
+quick configuration for Ubuntu 18.04
+
+**manual：**
+
+1. Entering current user directory ```cd```
+
+2. ```git clone "http://github.com/1700402116/configure.git"```
+
+3.run ```sudo bash config.sh```
