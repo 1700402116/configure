@@ -47,13 +47,13 @@ if [ "$sel" = Y ] || [ "$sel" = y ] ; then
 	
 	if [ "$device" = "s" ]||[ "$device" = "S" ]; then
 		echo -e "$color_bold->device type: server selected.$color_reset"
-		bash ./vimconfig_server/vimconfig.sh
+		bash ~/confiugre/vimconfig_server/vimconfig.sh
 		if [ $? -eq 0 ]; then
 			echo -e "$color_green->vim plug configuration complete.$color_reset"
 		fi
 	elif [ "$device" = "D" ]||[ "$device" = "d" ]; then
 		echo -e "$color_bold->device type: Desktop selected.$color_reset"
-		bash ./vimconfig_desktop/vimconfig.sh
+		bash ~/configure/vimconfig_desktop/vimconfig.sh
 		if [ $? -eq 0 ]; then
 			echo -e "$color_green->vim plug configuration complete.$color_reset"
 		fi
