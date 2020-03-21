@@ -26,12 +26,5 @@ map S :w<CR>
 map Q :q<CR>
 map R :source $MYVIMRC<CR>
 
-call plug#begin('~/.vim/autoload/plug')
-
-Plug 'vim-airline/vim-airline'
-Plug 'connorholyday/vim-snazzy'
-
-call plug#end()
-
 color snazzy
 

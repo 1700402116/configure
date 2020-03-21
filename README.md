@@ -6,7 +6,7 @@
 
 1.进入当前用户目录 ```cd```
 
-2. ```git clone "http://github.com/1700402116/configure.git"```
+2. ```git clone "https://github.com/1700402116/configure.git"```
 
 3.运行脚本```sudo bash config.sh```
 
@@ -18,6 +18,6 @@ quick configuration for Ubuntu 18.04
 
 1. Entering current user directory ```cd```
 
-2. ```git clone "http://github.com/1700402116/configure.git"```
+2. ```git clone "https://github.com/1700402116/configure.git"```
 
 3.run ```sudo bash config.sh```
