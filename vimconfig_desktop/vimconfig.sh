@@ -11,7 +11,11 @@ if [ -e ~/.vim/autoload/plug.vim ]; then
 	echo -e "$color_green->vim-plug has already been cloned.$color_reset"
 else
 	if [ ! -e /usr/bin/curl ]; then
+		echo -e "$color_red->curl has not been install yet, installing...$color_reset"
 		sudo apt-get install curl
+		curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+			    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 	else
 		curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 			    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim

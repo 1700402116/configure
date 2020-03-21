@@ -8,7 +8,7 @@
 
 2. ```git clone "https://github.com/1700402116/configure.git"```
 
-3.运行脚本```sudo bash config.sh```
+3.运行脚本```sudo bash ~/configure/config.sh```
 
 ---------------------------------------------------
 
@@ -20,4 +20,4 @@ quick configuration for Ubuntu 18.04
 
 2. ```git clone "https://github.com/1700402116/configure.git"```
 
-3.run ```sudo bash config.sh```
+3.run ```sudo bash ~/configure/config.sh```
