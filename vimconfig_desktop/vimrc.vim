@@ -26,6 +26,20 @@ map S :w<CR>
 map Q :q<CR>
 map R :source $MYVIMRC<CR>
 
+map sr :set splitright<CR>:vsplit<CR>
+map sl :set nosplitright<CR>:vsplit<CR>
+map su :set nosplitbelow<CR>:split<CR>
+map sd :set splitbelow<CR>:split<CR>
+
+map <LEADER><left> <C-w>h
+map <LEADER><right> <C-w>l
+map <LEADER><up> <C-w>k
+map <LEADER><down> <C-w>j
+
+map tn :tabe<CR>
+map tr :+tabnext<CR>
+map tl :-tabnext<CR>
+
 call plug#begin('~/.vim/autoload/plug')
 
 Plug 'vim-airline/vim-airline'
